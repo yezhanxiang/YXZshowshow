@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="112" id="KGk-i7-Jjw" customClass="BookTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="JlK-IS-toB">
+                        <rect key="frame" x="8" y="5" width="102" height="102"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爸爸去哪儿”体验游——长隆野生动物世界" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubk-TT-RIC">
+                        <rect key="frame" x="118" y="5" width="194" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="长隆野生动物世界&gt;熊猫餐厅&gt;长隆欢乐世界" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Po8-4l-Yph">
+                        <rect key="frame" x="118" y="62" width="194" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gog-D8-dLw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015-08-10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNg-tR-l8W">
+                        <rect key="frame" x="118" y="85" width="57" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="jJi-as-7SJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3780" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvr-fC-atU">
+                        <rect key="frame" x="278" y="86" width="34" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="wYa-EA-HRM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewCount.png" translatesAutoresizingMaskIntoConstraints="NO" id="IdE-hA-1rB">
+                        <rect key="frame" x="258" y="93" width="12" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="utX-PC-taR"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hb7-LA-SL2">
+                        <rect key="frame" x="118" y="46" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="u6b-6f-stV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMg-1A-cwa">
+                        <rect key="frame" x="183" y="86" width="22" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="WOU-ia-r6M"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="智文lordman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8C-1h-d0X">
+                        <rect key="frame" x="136" y="44" width="172" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IdE-hA-1rB" firstAttribute="leading" secondItem="dMg-1A-cwa" secondAttribute="trailing" constant="53" id="8ac-sh-0i3"/>
+                    <constraint firstItem="fNg-tR-l8W" firstAttribute="top" secondItem="Po8-4l-Yph" secondAttribute="bottom" constant="2" id="ITd-Bp-4X7"/>
+                    <constraint firstItem="fNg-tR-l8W" firstAttribute="leading" secondItem="Po8-4l-Yph" secondAttribute="leading" id="Ixz-3d-6Mo"/>
+                    <constraint firstItem="fNg-tR-l8W" firstAttribute="baseline" secondItem="dMg-1A-cwa" secondAttribute="baseline" id="L9T-zP-Pvy"/>
+                    <constraint firstItem="ubk-TT-RIC" firstAttribute="leading" secondItem="JlK-IS-toB" secondAttribute="trailing" constant="8" symbolic="YES" id="MFv-rO-cP4"/>
+                    <constraint firstItem="U8C-1h-d0X" firstAttribute="leading" secondItem="Hb7-LA-SL2" secondAttribute="trailing" constant="6" id="N5o-Zn-IUU"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JlK-IS-toB" secondAttribute="bottom" constant="-4" id="RKu-7K-LsK"/>
+                    <constraint firstItem="dMg-1A-cwa" firstAttribute="firstBaseline" secondItem="Fvr-fC-atU" secondAttribute="firstBaseline" id="Ulj-nH-vQe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="IdE-hA-1rB" secondAttribute="bottom" constant="2" id="X8p-FB-3bh"/>
+                    <constraint firstItem="dMg-1A-cwa" firstAttribute="baseline" secondItem="Fvr-fC-atU" secondAttribute="baseline" id="XfF-sG-F6H"/>
+                    <constraint firstItem="Hb7-LA-SL2" firstAttribute="leading" secondItem="Po8-4l-Yph" secondAttribute="leading" id="aEw-Q7-ma5"/>
+                    <constraint firstItem="Fvr-fC-atU" firstAttribute="trailing" secondItem="Po8-4l-Yph" secondAttribute="trailing" id="c85-O3-NnH"/>
+                    <constraint firstItem="Po8-4l-Yph" firstAttribute="top" secondItem="Hb7-LA-SL2" secondAttribute="bottom" constant="4" id="ci0-z0-MK6"/>
+                    <constraint firstItem="Fvr-fC-atU" firstAttribute="leading" secondItem="IdE-hA-1rB" secondAttribute="trailing" constant="8" symbolic="YES" id="dE9-We-3Lc"/>
+                    <constraint firstItem="Hb7-LA-SL2" firstAttribute="centerY" secondItem="U8C-1h-d0X" secondAttribute="centerY" constant="-2" id="ebv-Ly-22c"/>
+                    <constraint firstItem="Hb7-LA-SL2" firstAttribute="top" secondItem="ubk-TT-RIC" secondAttribute="bottom" constant="6" id="fDG-NP-BBQ"/>
+                    <constraint firstItem="JlK-IS-toB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="fnx-Qp-BGn"/>
+                    <constraint firstItem="fNg-tR-l8W" firstAttribute="centerY" secondItem="dMg-1A-cwa" secondAttribute="centerY" id="gGv-eh-Mh1"/>
+                    <constraint firstItem="dMg-1A-cwa" firstAttribute="leading" secondItem="fNg-tR-l8W" secondAttribute="trailing" constant="8" symbolic="YES" id="hod-Dm-66G"/>
+                    <constraint firstItem="JlK-IS-toB" firstAttribute="bottom" secondItem="fNg-tR-l8W" secondAttribute="bottom" id="kza-1m-sMf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ubk-TT-RIC" secondAttribute="trailing" id="m8h-Q6-Cea"/>
+                    <constraint firstItem="ubk-TT-RIC" firstAttribute="top" secondItem="JlK-IS-toB" secondAttribute="top" id="nv2-EK-9cB"/>
+                    <constraint firstItem="ubk-TT-RIC" firstAttribute="trailing" secondItem="U8C-1h-d0X" secondAttribute="trailing" constant="4" id="qPw-f9-o1l"/>
+                    <constraint firstItem="Po8-4l-Yph" firstAttribute="trailing" secondItem="U8C-1h-d0X" secondAttribute="trailing" constant="4" id="qZQ-ca-cnd"/>
+                    <constraint firstItem="JlK-IS-toB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="qc2-pV-Ypi"/>
+                    <constraint firstItem="IdE-hA-1rB" firstAttribute="top" secondItem="Po8-4l-Yph" secondAttribute="bottom" constant="10" id="uHI-wA-PJW"/>
+                    <constraint firstItem="U8C-1h-d0X" firstAttribute="top" secondItem="ubk-TT-RIC" secondAttribute="bottom" constant="4" id="unA-7H-0rA"/>
+                    <constraint firstItem="Hb7-LA-SL2" firstAttribute="leading" secondItem="ubk-TT-RIC" secondAttribute="leading" id="wrv-tY-OLc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bookDate" destination="fNg-tR-l8W" id="Wtl-h1-fw6"/>
+                <outlet property="bookDay" destination="dMg-1A-cwa" id="8OL-oc-jmg"/>
+                <outlet property="bookImage" destination="JlK-IS-toB" id="1cb-pk-XMN"/>
+                <outlet property="bookText" destination="Po8-4l-Yph" id="Zxw-dx-oiM"/>
+                <outlet property="bookTitle" destination="ubk-TT-RIC" id="y8y-Pm-4Ux"/>
+                <outlet property="bookUsername" destination="U8C-1h-d0X" id="T41-GP-f4a"/>
+                <outlet property="count" destination="Fvr-fC-atU" id="x7p-lv-9lF"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="270"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bookImg.png" width="102" height="102"/>
+        <image name="userImage.png" width="12" height="12"/>
+        <image name="viewCount.png" width="12" height="8"/>
+    </resources>
+</document>
